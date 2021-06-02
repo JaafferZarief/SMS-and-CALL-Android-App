@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="You Want To Send Message?!"
+        android:textColor="@color/black"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/smsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms"
+        android:layout_centerHorizontal="true"
+        android:text="YES"
+        android:textColor="#000000"
+        app:backgroundTint="#FFA7A7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:text="You Want To Make A Call?!"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_below="@id/smsbutton"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/callbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call"
+        android:layout_centerHorizontal="true"
+        android:text="YES"
+        android:textColor="#000000"
+        app:backgroundTint="#FFA7A7" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:text="You Want To Share Image?!"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_below="@id/callbutton"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/imgbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:text="YES"
+        android:textColor="#000000"
+        app:backgroundTint="#FFA7A7" />
+
+
+
+</RelativeLayout>
